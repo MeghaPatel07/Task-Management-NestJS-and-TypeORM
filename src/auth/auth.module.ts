@@ -17,7 +17,7 @@ import { JwtStrategy } from './jwt.strategy';
 
         secret: configService.get('JWT_SECRET'),
         signOptions: { 
-          // No expiration - tokens never expire
+          // No expiration 
         },
       }),
 
