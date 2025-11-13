@@ -32,7 +32,7 @@ The application will be available at `http://localhost:3000`
 }
  
 
-## 💻 API Endpoints
+## API Endpoints
 
 All endpoints are created in collection of postman : postman link : https://elements.getpostman.com/redirect?entityId=38436367-e4926dee-c8eb-4067-908a-22aa70ffe48c&entityType=collection
 
