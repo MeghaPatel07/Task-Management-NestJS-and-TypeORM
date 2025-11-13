@@ -17,7 +17,7 @@ import { JwtStrategy } from './jwt.strategy';
 
         secret: configService.get('JWT_SECRET'),
         signOptions: { 
-          expiresIn: configService.get('JWT_EXPIRATION') || '24h' 
+          // No expiration - tokens never expire
         },
       }),
 
@@ -28,6 +28,6 @@ import { JwtStrategy } from './jwt.strategy';
   providers: [AuthService, JwtStrategy],
   controllers: [AuthController],
   exports: [AuthService, JwtModule],
-  
+
 })
 export class AuthModule {}
